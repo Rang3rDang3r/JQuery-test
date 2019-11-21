@@ -1,7 +1,26 @@
 $(document).ready(function() {
  
+    $('p').click(function(){
+        $('p').addClass('color_text');
+    });
 
- 	$("#stream1_btn").on("click", function() {
+    $('h2').hover(function(){
+        $('h2').addClass('highlight_text');
+    });
+
+    $('h2').currentTarget(function(){
+        $('h2').addClass('increase_size');
+    });
+
+    $(".bottom_button").mouseenter(function(){
+        $("body").css("background-color", "black");
+    });
+
+    $(".bottom_button").mouseleave(function(){
+        $("body").css("background-color", "grey");
+    });
+
+ 	$("#stream1_btn").mousehover(function() {
  		$(".stream1").removeClass('highlight_stream');
 		$(".stream2").removeClass('highlight_stream');
 		$(".stream3").removeClass('highlight_stream');
@@ -18,7 +37,6 @@ $(document).ready(function() {
 		$(".stream2").removeClass('highlight_stream');
 		$(".stream3").removeClass('highlight_stream');
 	  	$(".stream3").addClass('highlight_stream');
-	});
-
+    });
 
 }); 

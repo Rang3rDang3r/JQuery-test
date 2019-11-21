@@ -87,6 +87,17 @@ div{
 
 }
 
+.color_text {
+            color: red;
+}
+.highlight_text {
+            background-color: blue;
+        }
+.increase_size {
+            font-size: 20px;
+}
+
+
 /*************************
 Navigation
 
