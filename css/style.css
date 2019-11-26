@@ -1,9 +1,9 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	/*background-image: url(img/code-institute.jpg);
- 	background-size: cover;
- 	color: #ffffff;*/
- 	background-color: #eee;
+	background-size: cover;
+	color: #ffffff;*/
+	background-color: #eee;
 }
 
 h1{
@@ -25,6 +25,7 @@ div{
 .card_image{
 	width: 100%;
 }
+
 .bottom_button{
 	display: flex;
 	box-sizing:border-box;
@@ -36,7 +37,6 @@ div{
 	padding: 1em .75em;
 	text-decoration: none;
 	color: #fff;
-
 }
 
 .card_bottom{
@@ -48,6 +48,7 @@ div{
 }
 .card_para{
 	flex:1 0 auto;
+	display: none;
 }
 
 #container
@@ -64,7 +65,7 @@ div{
 	margin: auto;
 }
 
-.card{
+.card {
 	flex:1; /* */
 	display: flex;	/* make the contents controllable by flexbox*/
 	flex-flow:column;	/* */
@@ -73,8 +74,9 @@ div{
 	padding: 20px;
 	background-color: #fff;
 }
-.highlight_stream{
-	background-color: #EB5255;
+
+.highlight{
+	background-color: pink;
 }
 
 #my_footer{
@@ -84,12 +86,11 @@ div{
 #copyright{
 	margin-top:10px;
 	margin-bottom:10px;
-
+	
 }
 
 /*************************
 Navigation
-
 **************************/
 
 nav{
@@ -132,10 +133,10 @@ li{
 }
 
 .underline{
-  text-decoration:underline;
+	text-decoration:underline;
 }
 .border{
-  border: solid 5px #ccc;
+	border: solid 5px #ccc;
 }
 
 
@@ -148,4 +149,3 @@ li{
 		font-size: 2em;
 	}
 }
-
